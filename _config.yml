@@ -112,7 +112,7 @@ content:
   - title: Skills # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: 
         quote: >
           현재 사용 가능한 기술들 입니다.
@@ -138,6 +138,16 @@ content:
           - SNS, SQS
           - VPC, Route53, Cloudfront, API_Gateway
           - CodeCommit, CodeBuild, CodeDeploy, CodePipeline
+      - layout: left
+        title: Backend
+        description: |
+          - Node.js, express, fastify
+      - layout: left
+        title: Frontend
+        description: |
+          - html
+          - css
+          - javascript, jquery
 
 
   - title: A Little More About Me
