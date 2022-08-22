@@ -87,14 +87,14 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: 코드스테이츠
         # link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: DevOps 부트캠프 2기
         caption: 2022.04 ~ 2022.08
-        quote: >
-          DevOps 엔지니어에게 필요한 기본 개념 및 배포 환경 구성 교육
+        # quote: >
+        #   DevOps 엔지니어에게 필요한 기본 개념 및 배포 환경 구성 교육
         description: | # this will include new lines to allow paragraphs
             - 애플리케이션 컨테이너화
             - 컨테이너 오케스트레이션
@@ -112,8 +112,8 @@ content:
   - title: Skills # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: tope-middle
-        # title: 
+      - layout: top-middle
+        title: 
         quote: >
           현재 사용 가능한 기술들 입니다.
       - layout: left
