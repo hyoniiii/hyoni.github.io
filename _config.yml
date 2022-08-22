@@ -49,7 +49,7 @@ linkedin_username:
 about_profile_image: images/me.jpg
 about_content: | # this will include new lines to allow paragraphs
   끊임없이 고민하는 DevOps 엔지니어 박지현 입니다.
-  ***
+  ---
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
