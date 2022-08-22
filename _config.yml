@@ -60,7 +60,7 @@ content:
         title: 클라우드 마이그레이션
         link: github.com/sproogen
         # link_text: Project Website
-        sub_title: Migration information system from On-premise to AWS
+        sub_title: Migration from On-premise to AWS
         caption: 2022.07.25 ~ 2022.08.04
         additional_links:
           - title:  sproogen/modern-resume-theme
@@ -70,11 +70,13 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          요구사항에 따라 온프레미스 환경에서 설치 및 운영되고 있는 사내 정보 시스템을 클라우드로 이관
+          클라이언트 요구사항에 따라 온프레미스 환경에서 설치 및 운영되고 있는 사내 정보 시스템을 클라우드로 이관
         description: | # this will include new lines to allow paragraphs
-          - <mark>Stack</mark> : API Gateway, Authorizer Lambda, JWT token, VPC, Private Subnet
-          - 2
-          - 3
+          - JWT를 이용한 통합 인증 제공(Authorizer Lambda)
+          - HTTP 요청에 대한 응답 데이터를 Private Subnet에 구축하여 보안성 강화
+          - Application Load Balancer를 사용하여 트래픽 초과 대응
+          - FinOps의 관점으로 아키텍쳐 분석 후 CloudMap, VPC endpoint를 이용하여 예산 절감
+          - Code Deploy를 사용하여 개발자를 위한 코드 배포 자동화 구현
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
