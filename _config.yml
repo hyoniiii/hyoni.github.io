@@ -77,17 +77,17 @@ content:
         quote: >
           클라이언트 요구사항에 따라 온프레미스 환경에서 설치 및 운영되고 있는 사내 정보 시스템을 클라우드로 이관
         description: | # this will include new lines to allow paragraphs
-          - JWT를 이용한 통합 인증 제공<mark>(Authorizer Lambda)</mark>
-          - HTTP 요청에 대한 응답 데이터를 Private Subnet에 구축하여 <mark>보안성 강화</mark>
+          - JWT를 이용한 통합 인증 제공(Authorizer Lambda)
+          - HTTP 요청에 대한 응답 데이터를 Private Subnet에 구축하여 보안성 강화
           - Application Load Balancer를 사용하여 <mark>트래픽 초과 대응</mark>
           - <mark>FinOps의 관점으로 아키텍쳐 분석</mark> 후 [CloudMap](https://aerial-bamboo-7ba.notion.site/HTTP-Private-Subnet-a0a08b67b6744e3591af2b0824c38bc0), VPC endpoint를 이용하여 예산 절감
-          - Code Deploy, Github Action을 사용하여 개발자를 위한 <mark>코드 배포 자동화</mark> 구현
+          - Code Deploy, Github Action을 사용하여 개발자를 위한 코드 배포 자동화 구현
           - Stack : API Gateway, Lambda, EC2, ECS, ECR, DynamoDB, RDS, CloudMap, VPC endpoint, SSM, ALB
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         title: 코드스테이츠
         # link: boringcompany.com
         # link_text: boringcompany.com
@@ -112,8 +112,8 @@ content:
   - title: Skills # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: 
+      - layout: tope-middle
+        # title: 
         quote: >
           현재 사용 가능한 기술들 입니다.
       - layout: left
