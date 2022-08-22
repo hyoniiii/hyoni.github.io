@@ -9,7 +9,7 @@ version: 2
 name: 박지현
 title: DevOps 엔지니어
 email: hyoni0712@gmail.com
-website: https://github.com/hyoniiii
+# website: https://github.com/hyoniiii
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -53,6 +53,11 @@ about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
+  - title: Skills
+    layout: list
+    content:
+      - layout: top-middle
+        title: I can do it!
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
