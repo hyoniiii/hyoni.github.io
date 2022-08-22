@@ -57,10 +57,11 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 사내정보 시스템 클라우드 마이그레이션
+        title: 사내정보 시스템 
+        클라우드 마이그레이션
         link: github.com/sproogen
         # link_text: Project Website
-        sub_title: Migration information system from On-premise to <mark>AWS</mark>
+        sub_title: Migration information system from On-premise to AWS
         caption: 2022.07.25 ~ 2022.08.04
         additional_links:
           - title:  sproogen/modern-resume-theme
@@ -73,7 +74,7 @@ content:
           2022.07.25 ~ 2022.08.04
         description: | # this will include new lines to allow paragraphs
           요구사항에 따라 온프레미스 환경에서 설치 및 운영되고 있는 사내 정보 시스템을 클라우드로 이관
-          - Stack : <mark>API Gateway</mark> <mark>Authorizer Lambda</mark> <mark>JWT token</mark> <mark>VPC</mark> <mark>Private Subnet</mark>
+          - <mark>Stack</mark> : API Gateway, Authorizer Lambda, JWT token, VPC, Private Subnet
           - 2
           - 3
 
