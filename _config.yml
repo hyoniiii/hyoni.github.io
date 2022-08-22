@@ -51,9 +51,11 @@ about_content: | # this will include new lines to allow paragraphs
   ## Introduction
   끊임없이 고민하는 DevOps 엔지니어 박지현 입니다.
   - 
+  <hr>
 
-  ---
-
+  ## This is me
+  - 
+  <hr>
   ## My Vision
   - 
 
@@ -153,11 +155,12 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      개발 이외에도 손으로 만드는 건 다 좋아합니다!
+      - 그림
+      - 뜨개질
+      - 독서
+      - 수영
+      - 헬스
 
       Look at this cool image  
       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
